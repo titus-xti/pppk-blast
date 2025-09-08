@@ -236,9 +236,9 @@ msgid : %s`
 		fmt.Printf("\nMemproses nomor %s : %s\n", num, name)
 		caption = fmt.Sprintf(prefix, name, hex.EncodeToString(hash[:]))
 		// Periksa format nomor
-		if !strings.HasPrefix(num, "+") && !strings.HasPrefix(num, "62") {
-			num = "62" + strings.TrimLeft(num, "0")
-		}
+		//if !strings.HasPrefix(num, "+") && !strings.HasPrefix(num, "62") {
+		//	num = "62" + strings.TrimLeft(num, "0")
+		//}
 
 		jid := parseJID(num)
 		if jid.User == "" {
