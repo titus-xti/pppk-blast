@@ -189,7 +189,9 @@ func main() {
 
 	// Path ke file media (ganti sesuai kebutuhan)
 	mediaPath := "" // atau "path/to/your/video.mp4"
-	prefix := `Yang Terkasih Bp/Ibu/Sdr/Sdri %s,
+	prefix := `Yang Terkasih Bp/Ibu/Sdr/Sdri
+*%s*
+
 Salam Damai Kristus,
 
 Puji Tuhan, atas penyertaan Tuhan, proses Pemanggilan Pendeta Kedua GKJ Pamulang akan segera memasuki tahap pemilihan. Untuk itu kami Majelis dan Panitia Pemanggilan Pendeta Kedua GKJ Pamulang, mengundang Bapak/Ibu/Sdr/Sdri, jemaat dewasa GKJ  Pamulang (sudah sidi / baptis dewasa) untuk hadir dalam pemilihan pendeta yang akan dilaksanakan pada :
@@ -208,6 +210,7 @@ Namun demikian, apabila Bapak/Ibu/Sdr/Sdri, tidak dapat hadir di gereja pada har
 Suara Bapak/Ibu/Sdr/Sdri, sangat berarti untuk kesuksesan pelaksanaan Pemilihan Pendeta dan masa depan GKJ Pamulang.
 
 *Tuhan memberkati*
+
 *Panitia Pemilihan Pendeta GKJ Pamulang*
 
 _Pesan di kirim otomatis oleh system_
