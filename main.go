@@ -274,7 +274,7 @@ msgid : %s`
 		}
 
 		// Delay acak 10-60 detik
-		time.Sleep(time.Duration(10+r.Intn(50)) * time.Second)
+		time.Sleep(time.Duration(30+r.Intn(90)) * time.Second)
 	}
 
 	// Handle graceful shutdown
