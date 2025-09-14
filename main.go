@@ -201,7 +201,7 @@ Puji Tuhan, atas penyertaan Tuhan, proses Pemanggilan Pendeta Kedua GKJ Pamulang
 *Waktu : Jam 10.00 WIB (Setelah Ibadah Minggu)*
 *Tempat : GKJ Pamulang*
 
-Namun demikian, apabila Bapak/Ibu/Sdr/Sdri, tidak dapat hadir di gereja pada hari Minggu, 28 September 2025, dapat melakukan pemilihan secara online dengan tata cara sebagai berikut :
+Namun demikian, apabila Bapak/Ibu/Sdr/Sdri, tidak dapat hadir di gereja pada hari Minggu, 28 September 2025, *dapat melakukan pemilihan secara online dengan tata cara sebagai berikut* :
 1. Mendaftar pemilihan secara online dengan mengirim pesan Whatsapp ke nomor +62-857-1871-2605 dan mengikuti petunjuk sesuai balasan yang di berikan dari nomor Whatsapp tersebut
 2. Pendaftaran pemilihan online paling lambat 21 september 2025
 3. Setelah pendaftaran online berhasil, Bapak/Ibu/Sdr/Sdri, akan mendapatkan link untuk mengikuti pemilihan online
@@ -212,11 +212,7 @@ Suara Bapak/Ibu/Sdr/Sdri, sangat berarti untuk kesuksesan pelaksanaan Pemilihan 
 *Tuhan memberkati*
 
 *Panitia Pemilihan Pendeta GKJ Pamulang*
-
-_Pesan di kirim otomatis oleh system_
-_Jika ada pertanyaan lebih lanjut, mohon menghubungi Majelis atau Panitia Pemilihan Pendeta GKJ Pamulang_
-
-msgid : %s`
+`
 
 	// Generate MD5 hash of current timestamp
 	hash := md5.Sum([]byte(fmt.Sprint(time.Now().UnixMilli())))
