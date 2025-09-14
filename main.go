@@ -2,9 +2,7 @@ package main
 
 import (
 	"context"
-	"crypto/md5"
 	"encoding/csv"
-	"encoding/hex"
 	"flag"
 	"fmt"
 	mrand "math/rand"
@@ -215,7 +213,7 @@ Suara Bapak/Ibu/Sdr/Sdri, sangat berarti untuk kesuksesan pelaksanaan Pemilihan 
 `
 
 	// Generate MD5 hash of current timestamp
-	hash := md5.Sum([]byte(fmt.Sprint(time.Now().UnixMilli())))
+	// hash := md5.Sum([]byte(fmt.Sprint(time.Now().UnixMilli())))
 	var caption string
 
 	// Tunggu sebentar untuk memastikan koneksi stabil
@@ -230,7 +228,7 @@ Suara Bapak/Ibu/Sdr/Sdri, sangat berarti untuk kesuksesan pelaksanaan Pemilihan 
 	// Cek dan kirim media ke setiap nomor
 	for num, name := range numbers {
 		fmt.Printf("\nMemproses nomor %s : %s\n", num, name)
-		caption = fmt.Sprintf(prefix, name, hex.EncodeToString(hash[:]))
+		caption = fmt.Sprintf(prefix, name)
 		// Periksa format nomor
 		//if !strings.HasPrefix(num, "+") && !strings.HasPrefix(num, "62") {
 		//	num = "62" + strings.TrimLeft(num, "0")
